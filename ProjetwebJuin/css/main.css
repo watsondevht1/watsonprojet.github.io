@@ -1,0 +1,479 @@
+/*Header*/
+header{
+    
+    background-color: #176775;
+    color: #f0f8ff;
+    width: 100%;
+    min-width: 200px;
+    position: fixed;
+    z-index: 1;
+    padding-left: 30px;
+}
+
+header .wat
+{
+    color: #f0f8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 12px;
+    border-radius: 100%;
+    border: 4px solid white;
+}
+header ul li img{
+    width: 20px;
+    height: 20px;
+}
+a{
+    text-decoration: none;
+}
+.navigator ul{
+    display: inline-block;
+}
+
+.navigator ul li{
+    padding: 20px;
+    display: inline;
+}
+nav ul li a{
+    color: white;  
+}
+.linkmenu img{
+    padding-right: 4px;
+}
+.linkmenu:hover{
+    border-bottom: 5px solid white;
+    background: #176780;
+    padding: 30px 4px 12px 12px;
+}
+/*Banner HomePage*/
+#banner{
+    background: url("https://img.scoop.it/8IfoFLJ1ZXswzidDfwopzjl72eJkfbmt4t8yenImKBVvK0kTmF0xjctABnaLJIm9");
+    background-size:cover;
+    padding: 200px 0;
+    text-align: center;
+    color:white;
+    opacity:0.9;
+    
+}
+#banner h1{
+    color:black;
+    font-size: 50px;
+    
+}
+#banner p a{
+font-family: Helvetica;
+border: 4px solid white;
+background: white;
+border-radius: 4px;
+    
+}
+
+abbr{
+    text-decoration: none;
+}
+#banner p a:hover{
+    background: #BA6C5B;
+    border: 4px solid #BA6C5B;
+}
+/*Pati news lan*/
+.news{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 100px 0 100px;
+    padding: 10px 0;
+    border-radius: 40px;
+}
+.container{
+    display: flex;
+    margin: 10px 10px 10px 20px;
+    padding-top: 20px;
+}
+.boitenews{
+    margin-right: 40px;
+    text-align: justify;
+   
+}
+.boitenews img{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.container .boitenews a{
+    font-weight:bold;
+    color:blue;
+    text-decoration: underline;
+}
+.container .boitenews img{
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+.container .boitenews img:hover{
+    transform:scale(1.1);
+}
+/*Section 1*/
+
+section p{
+    text-align: justify;
+    margin: auto 10px auto 10px;
+}
+
+/*Layout parti ki gen evenneman*/
+.event{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    
+    margin: 0 20px 0 20px;
+}
+/*Layout 2 parti ki responsab leur foto yo ap tranble yo*/
+.layout img{
+    transition:transform 0.3s;
+    z-index: 9;
+    border-radius: 60px;
+}
+.layout img:hover{
+    
+    transform:scale(1.1);
+   /* border-radius: 100px;*/
+    
+    overflow: hidden;
+}
+/*Layout  3 parti ki responsab background color*/
+.layout{
+    background:rgb(109, 106, 105); 
+      display: flex;
+    padding-bottom: 0;
+    margin: 20px 20px;
+  line-height: 1.6;
+  justify-content: space-around;
+  
+  }
+  .kadoevent{
+      margin:10px 10px;
+  }
+  div .kadoevent{
+      text-align: justify;
+  }
+
+  /*btn signie Bouton c'est d'une classe ki gen plus d'evennement*/
+  .btn a{
+    color: bisque;
+    margin-left: 40%;
+    background-color: #176775;
+    width: 50x;
+    padding: 10px 50px 10px 50px;
+}
+
+article{
+    display: flex;
+    justify-content: space-around;
+    background-color:white;  
+}
+button{
+    background:#176775;
+    margin: 2px 2px 2px 2px;
+}
+.pied ul li{
+    display: inline;
+    margin-left: 20px;
+}
+ 
+footer{
+    background: rgb(24, 18, 18);
+    color: #f0f8ff;
+justify-content:space-between;
+display: flex;
+flex-wrap: wrap-reverse;
+
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+}
+.kado{
+    background: #176775;
+}
+footer ul li{
+    list-style: none;
+}
+h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.footright, .menufoot{
+    margin-top: 5px;
+    margin-left: 250px;
+    margin-bottom:100px; 
+}
+.copy{
+    text-align: center;
+    margin: 0;
+    background:rgba(12, 12, 12, 0.5);
+    color: white;
+   font-size: large;  
+}
+body{
+    margin: 0;
+    font-family: Helvetica;
+    background: rgb(173, 154, 150);
+}
+
+/*Galerie Image */
+.pati{
+    width: 1280px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.pati .boat{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    
+}
+
+.pati .boat .boitfoto{
+    position: relative;
+    overflow: hidden;
+}
+.pati .boat .boitfoto img{
+width: 100%;
+transition: transform 2s;
+}
+.pati .boat:hover .boitfoto img{
+    transform: scale(1.2);
+    /*IE 8*/
+    filter: brightness(30%);
+    
+   /* filter: blur(25px);*/
+   
+}
+.pati .boat .details{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    bottom: 40px;
+    right: 40px;
+   
+    transform: scaleY(0);
+    transition: transform .5ms;
+}
+.pati .boat:hover .details{
+    
+
+    transform: scaleY(1);
+}
+
+.pati .boat .details .content{
+    color:#fff;
+    text-align: center;
+    transform: scaleY(-50%);
+    padding: 15px;
+    top:10%;
+       position: absolute;
+}
+.content h2{
+    color: yellow;
+}
+.problm{
+    padding: 30px;
+
+
+}
+    .cafprob{
+
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        background: #176775;
+        margin: 40px 40px;
+        text-transform: capitalize;
+        border-radius: 50%;
+        font-style: italic;
+        opacity: 0.7;
+        text-shadow: #BA6C5B 1px 2px;
+
+    }
+
+ .fotofoot{
+     padding-right: 12px;
+ }
+/*Page A propos*/
+
+.canv, .gedeon{
+    
+    font-size: 25px;
+    
+    color: #fff;
+    background-color: #176775;
+    width: 90%;
+    padding: 15px;
+    text-align: center;
+    margin: 0 40px 0 60px;
+}
+.containerabout{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/*Page Contact*/
+.boitabout li{
+    list-style: none;
+}
+
+/*Page webmaster*/
+.weblay{
+   
+    text-align: center;
+    background: #176775;
+    margin: 0 200px 0 200px;
+    padding: 10px 0 10px 0;
+}
+.layoutweb{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    padding: 10px 0;
+    font-family:Rage ; 
+}
+
+.layoutweb img{
+    transition:transform 0.3s;
+    z-index: 9;
+
+}
+.layoutweb img:hover{
+
+    transform:rotate(360deg);
+   border-radius: 100px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 850px)
+{
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+/*Header*/
+header{
+    
+    flex-wrap: wrap-reverse;
+    background-color: #176775;
+    position: relative;
+    color: white;
+    width: 96%;
+}
+
+header ul li img{
+    width: 20px;
+    height: 20px;
+}
+a{
+    text-decoration: none;
+}
+.wat{
+    display: none;
+}
+.navigator{
+    padding-left:30%;
+    font-size: 20px;
+}
+.navigator ul li{
+    padding: 20px;
+    display: flex;
+}
+
+nav ul li a{
+    color: white;  
+}
+.linkmenu img{
+    padding-right: 4px;
+}
+.linkmenu:hover{
+    
+    padding: 1px 1px 1px 1px;
+}
+/*Banner HomePage*/
+#banner{
+    background-image: url(../image/caflokal.jpg);
+    background-size:cover;
+    
+    padding: 100px 0;
+    text-align: center;
+    color:white;
+    opacity:0.9;
+    
+}
+
+.news{
+    font-size: 70%;
+    text-align: center;
+    font-weight: bold;
+    
+    padding: 10px 0;
+    border-radius: 40px;
+}
+.container, .layout, .layoutweb,footer{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.boitenews{
+    margin-right: 40px;
+    text-align: justify;
+   
+}
+.container .boitenews img{
+    width: 300px;
+    height: 300px;
+}
+/* Galerie image
+*/
+.pati{
+    width: 1280px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.pati .boat{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    
+}
+
+.pati .boat .boitfoto{
+    position: relative;
+    overflow: hidden;
+}
+.pati .boat .boitfoto img{
+width: 100%;
+transition: transform 2s;
+}
+.pati .boat:hover .boitfoto img{
+    transform: scale(1.2);
+    /*IE 8*/
+    filter: brightness(30%);
+    
+   /* filter: blur(25px);*/
+   
+
+}
